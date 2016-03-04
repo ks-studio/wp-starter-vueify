@@ -1,0 +1,65 @@
+{
+  "name": "wp-starter-vueify",
+  "version": "1.0.0",
+  "description": "Starter wordpress theme stack with Gulp, Browserify, Vueify and optimized rest API support, created and used by Ks Studio",
+  "keywords": ["wordpress","gulp","browserify","vue","vueify","starter"],
+  "author": {
+    "name": "Pirony",
+    "email": "contact@studio-ks.fr",
+    "url": "http://studio-ks.fr"
+  },
+  "theme_infos": {
+    "uri": "http://studio-ks.fr",
+    "textdomain": "ksstud"
+  },
+  "license": "MIT",
+  "browser": {
+    "jquery": "./node_modules/jquery/dist/jquery.min.js",
+    "materialize": "./node_modules/materialize-css/bin/materialize.js"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "jquery": "$",
+    "materialize": "materialize"
+  },
+  "dependencies": {
+    "bower": "^1.7.7",
+    "materialize-css": "^0.97.5",
+    "vue": "^1.0.17",
+    "vue-resource": "^0.7.0",
+    "vue-router": "^0.7.11",
+    "vueify": "^8.3.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "babel-core": "^6.6.0",
+    "babel-plugin-transform-runtime": "^6.6.0",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-runtime": "^5.8.35",
+    "bourbon": "^4.2.6",
+    "browserify": "^13.0.0",
+    "browserify-shim": "^3.8.12",
+    "css-mqpacker": "^4.0.0",
+    "csswring": "^4.2.1",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.2",
+    "gulp-concat-util": "^0.5.5",
+    "gulp-file": "^0.2.0",
+    "gulp-ignore": "^2.0.1",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-postcss": "^6.1.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-zip": "^3.2.0",
+    "postcss-nested": "^1.0.0",
+    "postcss-scss": "^0.1.6",
+    "vue-hot-reload-api": "^1.3.2",
+    "vue-router": "^0.7.11",
+    "vueify-insert-css": "^1.0.0"
+  }
+}
