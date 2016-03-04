@@ -13,6 +13,6 @@ Starter wordpress theme stack with Gulp, Browserify, Vueify and optimized rest A
 
 ## Usage
 
-Run gulp to build css and js files
+Run `gulp` to build css and js files
 
-Run gulp build to build and clean final theme. It will output generated theme to /dist folder, and create a zip file.
+Run `gulp build` to build and clean final theme. It will output generated theme to /dist folder, and create a zip file.
