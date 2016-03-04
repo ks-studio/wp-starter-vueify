@@ -114,6 +114,11 @@ gulp.task('zip',['dist'], function () {
 		.pipe(gulp.dest('dist'));    
 });
 
+gulp.task('default', function () {
+    gulp.start('js');
+    gulp.start('css');
+});
+
 gulp.task('build',['js','css'], function () {
     gulp.start('zip');
 });

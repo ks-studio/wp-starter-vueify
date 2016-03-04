@@ -1,6 +1,6 @@
 {
   "name": "wp-starter-vueify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Starter wordpress theme stack with Gulp, Browserify, Vueify and optimized rest API support, created and used by Ks Studio",
   "keywords": ["wordpress","gulp","browserify","vue","vueify","starter"],
   "author": {

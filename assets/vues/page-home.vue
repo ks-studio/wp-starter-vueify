@@ -2,7 +2,7 @@
     <div class="container">
         <article v-for="item in posts.data">
             <div class="row center">
-                <h2>{{item.title.rendered}}</h2>
+                <h2 class="left-align">{{item.title.rendered}}</h2>
                 <img v-bind:src="item.post_images.media_details.sizes.cardImage.source_url" alt="" class="responsive-img">
             </div>
             <div class="row flow-text">
