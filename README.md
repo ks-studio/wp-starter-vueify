@@ -8,11 +8,13 @@ Starter wordpress theme stack with Gulp, Browserify, Vueify and optimized rest A
 3. Download the package and copy to this directory
 4. Change package.json informations(name,themes_infos,etc...) !!! important: Files headers and theme declarations will use informations you provided.
 4. Run npm install
-5. Run gulp wp to create Wordpress needed files
-6. Run gulp to create needed assets files
+5. Run `gulp wp` to create Wordpress needed files
+6. Run `gulp` to create needed assets files
 
 ## Usage
 
 Run `gulp` to build css and js files
+
+Run `gulp watch` to watch files changes and autorun actions needed
 
 Run `gulp build` to build and clean final theme. It will output generated theme to /dist folder, and create a zip file.
